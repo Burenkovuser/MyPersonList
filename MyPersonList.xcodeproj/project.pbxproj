@@ -13,6 +13,7 @@
 		FB337FA122FD825A001D0A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB337F9F22FD825A001D0A79 /* LaunchScreen.storyboard */; };
 		FB35C39622FD898F006649CA /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35C39522FD898F006649CA /* PersonTableViewController.swift */; };
 		FB35C39822FD89BE006649CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35C39722FD89BE006649CA /* DetailViewController.swift */; };
+		FB35C39E22FD9F20006649CA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB35C39D22FD9F20006649CA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB337FA222FD825A001D0A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB35C39522FD898F006649CA /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 		FB35C39722FD89BE006649CA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FB35C39D22FD9F20006649CA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FB337F9622FD8258001D0A79 /* AppDelegate.swift */,
 				FB35C39522FD898F006649CA /* PersonTableViewController.swift */,
 				FB35C39722FD89BE006649CA /* DetailViewController.swift */,
+				FB35C39D22FD9F20006649CA /* Person.swift */,
 				FB337F9A22FD8258001D0A79 /* Main.storyboard */,
 				FB337F9D22FD825A001D0A79 /* Assets.xcassets */,
 				FB337F9F22FD825A001D0A79 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				FB35C39822FD89BE006649CA /* DetailViewController.swift in Sources */,
 				FB35C39622FD898F006649CA /* PersonTableViewController.swift in Sources */,
+				FB35C39E22FD9F20006649CA /* Person.swift in Sources */,
 				FB337F9722FD8258001D0A79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
