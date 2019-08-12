@@ -36,7 +36,7 @@ class PersonTableViewController: UITableViewController {
     
     // MARK: - privat func
     
-        func createPerson(indexPath: IndexPath) -> Person {
+       private func createPerson(indexPath: IndexPath) -> Person {
         let name: String = names[indexPath.row]
         let surname: String = surnames[indexPath.row]
         let email: String = emails[indexPath.row]
